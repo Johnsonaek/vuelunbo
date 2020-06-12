@@ -9,19 +9,21 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <test/>
+    <test2/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld'
+import test2 from './components/test2'
 import test from './components/test'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    test
+    test,
+    test2
   }
 }
 </script>
